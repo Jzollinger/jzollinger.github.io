@@ -1436,34 +1436,3 @@ footer p {
     font-size: .8rem;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 1024px) {
-  header {
-    background-color: blue;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  header {
-    background-color: yellow;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  header {
-    background-color: red;
-  }
-}
