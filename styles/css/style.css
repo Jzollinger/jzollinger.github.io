@@ -136,6 +136,11 @@ main {
           justify-content: center;
 }
 
+#productsBanner {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .contentColumn {
   width: 60%;
 }
