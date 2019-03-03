@@ -90,10 +90,36 @@ header nav span a:hover {
   color: rgb(200,181,90);
 }
 
+@media only screen and (max-width: 1024px) {
+  .headerGone {
+    display: none;
+  }
+
+  header nav {
+    font-size: 1.45rem;
+    margin-right: 40px;
+    margin-right: 2.5rem;
+  }
+
+  .NfuseLogo img {
+    margin-left: 40px;
+    margin-left: 2.5rem;
+    height: 2.5rem;
+  }
+
+  header {
+    height: 4.5rem;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   header nav {
     margin-right: 1rem;
     font-size: 1.15rem;
+  }
+
+  .headerGone {
+    display: inline-block;
   }
 
   .NfuseLogo img {
@@ -147,6 +173,12 @@ main {
 
 .shopColumn {
   width: 80%;
+}
+
+@media only screen and (max-width: 1024px) {
+  main {
+    top: 4.5rem;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -256,21 +288,34 @@ main {
   width: 30%;
 }
 
+@media only screen and (min-width: 1600px) {
+  #mainBanner {
+    height: 38rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   #mainBanner {
-    height: 27.5rem;
+    height: 35rem;
     padding-top: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
   }
 
   #bannerText h1 {
-    font-size: 2rem;
+    font-size: 2.45rem;
     margin-bottom: 1rem;
   }
 
   #mainBanner img {
     height: 10rem;
+  }
+
+  #bannerContent {
+    height: 33%;
   }
 }
 
@@ -339,9 +384,9 @@ main {
 #patentBanner {
   margin-top: 16px;
   margin-top: 1rem;
-  height: 288px;
-  height: 18rem;
-  background-color: rgba(200,181,90,.85);
+  height: 320px;
+  height: 20rem;
+  background-color: rgb(200,181,90);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -355,7 +400,7 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: rgb(0,0,0);
+  color: rgb(45,45,45);
 }
 
 #patentText {
@@ -413,7 +458,7 @@ main {
 
 @media only screen and (max-width: 1024px) {
   #patentBanner {
-    height: 20rem;
+    height: 22rem;
   }
 }
 
@@ -1231,6 +1276,9 @@ footer p {
 
 #products h2 {
   text-align: center;
+  color: rgb(85,85,85);
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
 }
 
 #products h3 {
@@ -1296,6 +1344,10 @@ footer p {
 
 #ingredientIcon img {
   height: 160px;
+  height: 10rem;
+}
+
+#lotionPicture {
   height: 10rem;
 }
 
@@ -1406,7 +1458,8 @@ footer p {
             justify-content: center;
   }
 
-  #shopLotion {
+  #shopLotion,
+  #shopClearGel {
     margin-top: 5rem;
   }
 }
