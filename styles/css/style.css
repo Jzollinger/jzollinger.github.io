@@ -290,19 +290,15 @@ main {
 
 @media only screen and (min-width: 1600px) {
   #mainBanner {
-    height: 38rem;
-    padding-top: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    height: 40rem;
   }
 }
 
 @media only screen and (max-width: 1024px) {
   #mainBanner {
     height: 35rem;
-    padding-top: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   #bannerText h1 {
@@ -311,7 +307,7 @@ main {
   }
 
   #mainBanner img {
-    height: 10rem;
+    height: 9.5rem;
   }
 
   #bannerContent {
