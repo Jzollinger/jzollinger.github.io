@@ -863,6 +863,16 @@ display: flex;
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .textBox {
+    height: 60%;
+  }
+
+  .whiteButton {
+    width: 55%;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .textBox {
     line-height: 1.75rem;
@@ -1026,7 +1036,7 @@ footer {
 }
 
 .footerLinks {
-  height: 80%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1085,6 +1095,40 @@ footer p {
   margin-bottom: .25rem;
   margin-left: 8px;
   margin-left: .5rem;
+  font-size: .75rem;
+}
+
+.featured p {
+  color: rgb(225,225,225);
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+.featured {
+  display: flex;
+  width: 65%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.theView {
+  height: 2.4rem;
+}
+
+.townCountry {
+  height: 1.2rem;
+}
+
+.britCompany {
+  height: 1.2rem;
+}
+
+.organicAuthority {
+  height: 1.8rem;
+}
+
+.usWeekly {
+  height: 2.4rem;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1452,6 +1496,12 @@ footer p {
 .productType h2 {
   font-weight: 700;
   color: rgb(65, 65, 65);
+}
+
+#shopShipping {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 480px) {
