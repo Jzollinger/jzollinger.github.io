@@ -147,6 +147,7 @@ header nav span a:hover {
     display: none;
   }
 }
+
 /* Main Page Styles */
 main {
   position: relative;
@@ -358,15 +359,15 @@ main {
     padding-top: .5rem;
     padding-left: .75rem;
     padding-right: .75rem;
-    height: 15.5rem;
+    height: 22rem;
   }
 
   #mainBanner img {
-    height: 5rem;
+    height: 6rem;
   }
 
   #bannerText h1 {
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-bottom: .5rem;
   }
 
@@ -375,14 +376,16 @@ main {
   }
 
   #bannerContent {
-    height: 40%;
-    width: 36%;
+    height: 50%;
+    width: 60%;
   }
 
   .buttonShrink {
-    margin-top: .4rem;
-    font-size: .7rem;
-    padding: .8rem;
+    font-size: .8rem;
+  }
+
+  #shopButton {
+    padding: .55rem 1.5rem;
   }
 }
 
@@ -744,12 +747,7 @@ display: flex;
 
 @media only screen and (max-width: 480px) {
   #healthBand {
-    height: 2rem;
-    margin-bottom: 1.5rem;
-  }
-
-  #healthBand span p {
-    font-size: .4rem;
+    display: none;
   }
 }
 
@@ -894,7 +892,7 @@ display: flex;
 
 @media only screen and (max-width: 480px) {
   .textBox {
-    line-height: 1.25rem;
+    line-height: 1.1rem;
   }
 
   .textBox h1 {
@@ -907,13 +905,26 @@ display: flex;
 
   .productImage,
   .productText {
-    height: 13rem;
+    height: 15rem;
   }
 
   .whiteButton {
     font-size: .7rem;
     width: 65%;
   }
+
+  #rollOn img {
+    width: 80%;
+  }
+
+  #clearGel img {
+    width: 100%;
+  }
+
+  #lotion img {
+    width: 95%;
+  }
+
 }
 
 /* Story Styles */
@@ -1148,19 +1159,28 @@ footer p {
 @media only screen and (max-width: 480px) {
   footer {
     top: 3rem;
-    height: 7rem;
+    height: 6rem;
   }
 
   footer p {
     font-size: .8rem;
   }
   .textLinks a {
-    font-size: .8rem;
+    font-size: .75rem;
     padding: 0 .2rem;
   }
 
   .fa-2x {
     font-size: 1.3rem;
+  }
+
+  .featured {
+    display: none;
+  }
+
+  .copyright {
+    font-size: .5rem;
+    display: none;
   }
 }
 
